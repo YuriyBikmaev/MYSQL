@@ -3,6 +3,7 @@ CREATE DATABASE IF NOT EXISTS  hw_seminar6;
 USE hw_seminar6;
 
 -- 1. Создайте процедуру, которая принимает кол-во сек и формат их в кол-во дней часов. Пример: 123456 ->'1 days 10 hours 17 minutes 36 seconds '
+DROP PROCEDURE task1;
 delimiter //
 CREATE PROCEDURE task1(num INT)
 BEGIN
